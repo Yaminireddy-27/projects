@@ -1,0 +1,159 @@
+*{
+	box-sizing: border-box
+}
+
+body{
+	margin: 0px
+}
+
+.main-container{
+	background-color: #e5eff5;
+	padding: 30px;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-bg-container{
+	background-color: #ffffff;
+	padding: 20px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.heading{
+	font-size: 30px;
+	color: #2dc4c2;
+	font-family: "Roboto";
+	font-weight: bold;
+}
+
+.caption{
+	font-size: 20px;
+	color: #bdf241;
+	font-family: "Roboto";
+	font-weight: 500;
+}
+
+.description{
+	font-size: 15px;
+	color:#8b9bb5;
+	font-family: "Roboto";
+	font-weight: 100;
+}
+
+.bottom-container{
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 1200px){
+	.bottom-container{
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+.price-card{
+	background-color: #2dc4c2;
+	display: flex;
+	flex-direction: column;
+	color: #ffffff;
+	padding: 20px;
+	flex-grow: 1;
+	
+}
+
+@media screen and (min-width: 1200px){
+	.price-card{
+		border-bottom-left-radius: 5px;
+	}
+} 
+
+.price{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.price-heading{
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: "Karla";	
+	margin-bottom: -10px
+}
+
+.price-value{
+	font-weight: 700;
+	font-size: 30px;
+	font-family: "Karla";
+	color: #ffffff;
+	margin-right: 10px
+}
+
+.price-duration{
+	font-weight: normal;
+	font-size: 15px;
+	font-family: "Karla";
+	color: #e6ebeb;
+}
+
+.price-description{
+	font-weight: 500;
+	font-size: 15px;
+	font-family: "Karla";
+	color: #ffffff;
+	margin-top: -20px;
+}
+
+.button{
+	background-color: #bdf241;
+	color: #ffffff;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	border-width: 0px;
+	font-family: "Karla";
+} 
+
+.why-us-container{
+	background-color: #69d6d4;
+	display: flex;
+	flex-direction: column;
+	color: #ffffff;
+	padding: 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	flex-grow: 1;
+	
+}
+
+@media screen and (min-width: 1200px){
+	.why-us-container{
+		border-bottom-left-radius: 0px;
+	}
+}
+
+.why-us-heading{
+ 	font-weight: 700;
+	font-size: 20px;
+	font-family: "Karla";
+	color: #ffffff;
+}
+
+
+.why-us-points{
+	margin-top:-12px;
+	font-weight: 100px;
+	color: #e6ebeb;
+	font-family: "Karla";
+}
+
+.why-us-points-top{
+	margin-top: 5px
+}
